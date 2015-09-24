@@ -1,0 +1,16 @@
+{
+    "author": "Bana Budhiana",
+    "name": "sensor_kata",
+    "version": "0.0.1",
+    "description": "Melakukan sensor kata dari sebuah text",
+    "main": "sensorteks",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/bbudhiana/belajar-nodeJS"
+    },
+    "keywords" : ["sensor", "kata"],
+    "dependencies": {},
+    "engines": {
+        "node": "*"
+    }
+}
