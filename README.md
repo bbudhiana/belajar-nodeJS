@@ -1,1 +1,0 @@
-Gitu deh pak
