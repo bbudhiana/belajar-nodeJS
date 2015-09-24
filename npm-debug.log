@@ -1,0 +1,96 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@2.14.2
+3 info using node@v4.0.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'd:\\Study\\NodeJS\\sensorkan',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\THINKPAD\AppData\Roaming\npm-cache\sensor_kata\0.0.1\package.tgz not in flight; packing
+9 verbose tar pack [ 'C:\\Users\\THINKPAD\\AppData\\Roaming\\npm-cache\\sensor_kata\\0.0.1\\package.tgz',
+9 verbose tar pack   'd:\\Study\\NodeJS\\sensorkan' ]
+10 verbose tarball C:\Users\THINKPAD\AppData\Roaming\npm-cache\sensor_kata\0.0.1\package.tgz
+11 verbose folder d:\Study\NodeJS\sensorkan
+12 info prepublish sensor_kata@0.0.1
+13 verbose addLocalTarball adding from inside cache C:\Users\THINKPAD\AppData\Roaming\npm-cache\sensor_kata\0.0.1\package.tgz
+14 silly cache afterAdd sensor_kata@0.0.1
+15 verbose afterAdd C:\Users\THINKPAD\AppData\Roaming\npm-cache\sensor_kata\0.0.1\package\package.json not in flight; writing
+16 verbose afterAdd C:\Users\THINKPAD\AppData\Roaming\npm-cache\sensor_kata\0.0.1\package\package.json written
+17 silly publish { author: { name: 'Bana Budhiana' },
+17 silly publish   name: 'sensor_kata',
+17 silly publish   version: '0.0.1',
+17 silly publish   description: 'Melakukan sensor kata dari sebuah text',
+17 silly publish   main: 'sensorteks',
+17 silly publish   repository:
+17 silly publish    { type: 'git',
+17 silly publish      url: 'git+https://github.com/bbudhiana/belajar-nodeJS.git' },
+17 silly publish   keywords: [ 'sensor', 'kata' ],
+17 silly publish   dependencies: {},
+17 silly publish   engines: { node: '*' },
+17 silly publish   readme: 'TEST KATA',
+17 silly publish   readmeFilename: 'README.md',
+17 silly publish   gitHead: '570cec65eb5d45e0a8c1de1081b95058046a922b',
+17 silly publish   bugs: { url: 'https://github.com/bbudhiana/belajar-nodeJS/issues' },
+17 silly publish   homepage: 'https://github.com/bbudhiana/belajar-nodeJS#readme',
+17 silly publish   _id: 'sensor_kata@0.0.1',
+17 silly publish   scripts: {},
+17 silly publish   _shasum: '1dd27e6f445a7c757ff79558b1d307f3a2991084',
+17 silly publish   _from: '.' }
+18 verbose getPublishConfig undefined
+19 silly mapToRegistry name sensor_kata
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry uri https://registry.npmjs.org/sensor_kata
+23 verbose publish registryBase https://registry.npmjs.org/
+24 silly publish uploading C:\Users\THINKPAD\AppData\Roaming\npm-cache\sensor_kata\0.0.1\package.tgz
+25 verbose request uri https://registry.npmjs.org/sensor_kata
+26 verbose request sending authorization for write operation
+27 info attempt registry request try #1 at 10:39:13 AM
+28 verbose request using bearer token for auth
+29 verbose request id 4cf785b283984692
+30 http request PUT https://registry.npmjs.org/sensor_kata
+31 http 403 https://registry.npmjs.org/sensor_kata
+32 verbose headers { 'content-type': 'application/json',
+32 verbose headers   'cache-control': 'max-age=60',
+32 verbose headers   'content-length': '128',
+32 verbose headers   'accept-ranges': 'bytes',
+32 verbose headers   date: 'Thu, 24 Sep 2015 03:39:17 GMT',
+32 verbose headers   via: '1.1 varnish',
+32 verbose headers   connection: 'keep-alive',
+32 verbose headers   'x-served-by': 'cache-lax1428-LAX',
+32 verbose headers   'x-cache': 'MISS',
+32 verbose headers   'x-cache-hits': '0',
+32 verbose headers   'x-timer': 'S1443065957.074875,VS0,VE200' }
+33 verbose request invalidating C:\Users\THINKPAD\AppData\Roaming\npm-cache\registry.npmjs.org\sensor_kata on PUT
+34 error publish Failed PUT 403
+35 verbose stack Error: "You cannot publish over the previously published version 0.0.1. Try bumping the version to 1.0.0" : sensor_kata
+35 verbose stack     at makeError (c:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:263:12)
+35 verbose stack     at CachingRegistryClient.<anonymous> (c:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:251:14)
+35 verbose stack     at Request._callback (c:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:171:14)
+35 verbose stack     at Request.self.callback (c:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:198:22)
+35 verbose stack     at emitTwo (events.js:87:13)
+35 verbose stack     at Request.emit (events.js:172:7)
+35 verbose stack     at Request.<anonymous> (c:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1073:14)
+35 verbose stack     at emitOne (events.js:82:20)
+35 verbose stack     at Request.emit (events.js:169:7)
+35 verbose stack     at IncomingMessage.<anonymous> (c:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1019:12)
+36 verbose statusCode 403
+37 verbose pkgid sensor_kata
+38 verbose cwd d:\Study\NodeJS\sensorkan
+39 error Windows_NT 10.0.10240
+40 error argv "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+41 error node v4.0.0
+42 error npm  v2.14.2
+43 error code E403
+44 error "You cannot publish over the previously published version 0.0.1. Try bumping the version to 1.0.0" : sensor_kata
+45 error If you need help, you may report this error at:
+45 error     <https://github.com/npm/npm/issues>
+46 verbose exit [ 1, true ]

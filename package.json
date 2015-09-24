@@ -1,7 +1,7 @@
 {
     "author": "Bana Budhiana",
     "name": "sensor_kata",
-    "version": "0.0.1",
+    "version": "0.0.0.1",
     "description": "Melakukan sensor kata dari sebuah text",
     "main": "sensorteks",
     "repository": {
